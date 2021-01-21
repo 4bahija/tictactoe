@@ -19,6 +19,7 @@ CLOCK=pg.time.Clock()
 screen=pg.display.set_mode((width,height+100),0,32)
 pg.display.set_caption("Tic Tac Toe")
 
+
 opening = pg.image.load('tto.png')
 x_img=pg.image.load('x.png')
 o_img= pg.image.load('o.png')
